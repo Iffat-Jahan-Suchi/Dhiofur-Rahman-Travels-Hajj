@@ -2,24 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-06T17:15:09 BDT" name="Default suite" finished-at="2024-02-06T17:15:39 BDT" duration-ms="29645">
+  <suite started-at="2024-02-06T20:12:42 BDT" name="Default suite" finished-at="2024-02-06T20:13:48 BDT" duration-ms="66267">
     <groups>
     </groups>
-    <test started-at="2024-02-06T17:15:09 BDT" name="Default test" finished-at="2024-02-06T17:15:39 BDT" duration-ms="29645">
-      <class name="Test.Service">
-        <test-method is-config="true" signature="start()[pri:0, instance:Test.Service@76505305]" started-at="2024-02-06T17:15:06 BDT" name="start" finished-at="2024-02-06T17:15:09 BDT" duration-ms="3002" status="PASS">
+    <test started-at="2024-02-06T20:12:42 BDT" name="Default test" finished-at="2024-02-06T20:13:48 BDT" duration-ms="66267">
+      <class name="Test.Consultancy">
+        <test-method is-config="true" signature="start()[pri:0, instance:Test.Consultancy@77888435]" started-at="2024-02-06T20:12:39 BDT" name="start" finished-at="2024-02-06T20:12:42 BDT" duration-ms="3367" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="packTourTest()[pri:0, instance:Test.Service@76505305]" started-at="2024-02-06T17:15:09 BDT" name="packTourTest" finished-at="2024-02-06T17:15:39 BDT" duration-ms="29549" status="PASS">
+        <test-method is-config="true" signature="baseDomain()[pri:0, instance:Test.Consultancy@77888435]" started-at="2024-02-06T20:12:42 BDT" name="baseDomain" finished-at="2024-02-06T20:13:40 BDT" duration-ms="58147" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- packTourTest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Test.Service@76505305]" started-at="2024-02-06T17:15:39 BDT" name="close" finished-at="2024-02-06T17:15:39 BDT" duration-ms="254" status="PASS">
+        </test-method> <!-- baseDomain -->
+        <test-method signature="consultancyTest()[pri:0, instance:Test.Consultancy@77888435]" started-at="2024-02-06T20:13:40 BDT" name="consultancyTest" finished-at="2024-02-06T20:13:48 BDT" duration-ms="8057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- consultancyTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Test.Consultancy@77888435]" started-at="2024-02-06T20:13:48 BDT" name="close" finished-at="2024-02-06T20:13:48 BDT" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- Test.Service -->
+      </class> <!-- Test.Consultancy -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
